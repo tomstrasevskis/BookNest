@@ -1,0 +1,11 @@
+
+{% extends 'base.html' %}
+{% block content %}
+<h1>Rediģēt grāmatu</h1>
+<form method="post">
+    <input type="text" name="title" value="{{ book['title'] }}" class="form-control mb-2" required>
+    <input type="text" name="author" value="{{ book['author'] }}" class="form-control mb-2" required>
+    <textarea name="description" class="form-control mb-2">{{ book['description'] }}</textarea>
+    <button type="submit" class="btn btn-success">Atjaunināt</button>
+</form>
+{% endblock %}

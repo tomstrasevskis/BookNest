@@ -1,0 +1,77 @@
+/* Pamatfons un fonts */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #212529;
+    padding-bottom: 60px;
+}
+
+/* Navigācijas josla */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Galvenes */
+h1, h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Grāmatu saraksts */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    background-color: #ffffff;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+
+ul li:hover {
+    background-color: #f1f1f1;
+}
+
+/* Formas */
+input[type="text"],
+textarea {
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    width: 100%;
+}
+
+button {
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-weight: 500;
+}
+
+/* Atsauksmju saraksts */
+ul.comments li {
+    font-size: 0.95rem;
+    color: #555;
+    padding-left: 12px;
+    border-left: 3px solid #ccc;
+    margin-bottom: 8px;
+}
+
+/* Telefoniem */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .navbar {
+        padding: 0.5rem 1rem;
+    }
+
+    ul li {
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
